@@ -8,11 +8,3 @@
 # in: 1 → 2 → 1
 # out: False
 
-class LinkedList:
-    def __init__(self):
-        self.head = None
-        self.tail = None
-    def has_consecutive(self):
-        data = None
-        current= self.head
-        
